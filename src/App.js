@@ -35,7 +35,7 @@ const App = () => {
   return (
     <div className="h-screen flex justify-center items-center">
       <div>
-        <h1>Twitch API</h1>
+        <h1 className="text-red-400">Twitch API</h1>
         <div>
           <form onSubmit={handleSubmit(onSubmit)}>
             <input
